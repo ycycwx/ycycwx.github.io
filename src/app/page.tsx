@@ -1,10 +1,18 @@
-import {css} from '../../styled-system/css';
+import Link from 'next/link';
+import {getMdxFiles} from '@/utils/mdx';
 
-const Home = () => {
+const Home = async () => {
+    const mdxFiles = await getMdxFiles();
     return (
-        <div className={css({fontSize: '2xl', fontWeight: 'bold'})}>
-            Hello World
-        </div>
+        <ul>
+            {
+                mdxFiles.map(({data, name}) => (
+                    <li key={name}>
+                        <Link href={`/blog/${name}`}>{data.title}</Link>
+                    </li>
+                ))
+            }
+        </ul>
     );
 };
 
