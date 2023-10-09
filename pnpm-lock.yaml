@@ -35,14 +35,11 @@ dependencies:
   remark-gfm:
     specifier: ^4.0.0
     version: 4.0.0
-  remark-mdx-frontmatter:
-    specifier: ^3.0.0
-    version: 3.0.0
 
 devDependencies:
   '@pandacss/dev':
     specifier: ^0.15.5
-    version: 0.15.5(@internationalized/date@3.5.0)(@types/node@20.8.3)(@types/react-dom@18.2.11)(@types/react@18.2.25)(typescript@5.2.2)
+    version: 0.15.5(@internationalized/date@3.5.0)(@types/node@20.8.3)(@types/react-dom@18.2.11)(@types/react@18.2.26)(typescript@5.2.2)
   '@types/mdx':
     specifier: ^2.0.8
     version: 2.0.8
@@ -50,14 +47,14 @@ devDependencies:
     specifier: ^20.8.3
     version: 20.8.3
   '@types/react':
-    specifier: ^18.2.25
-    version: 18.2.25
+    specifier: ^18.2.26
+    version: 18.2.26
   '@types/react-dom':
     specifier: ^18.2.11
     version: 18.2.11
   '@yotsubacy/config':
-    specifier: ^1.10.3
-    version: 1.10.3(@babel/core@7.23.0)(eslint@8.51.0)(typescript@5.2.2)
+    specifier: ^1.10.4
+    version: 1.10.4(@babel/core@7.23.0)(eslint@8.51.0)(typescript@5.2.2)
   eslint:
     specifier: ^8.51.0
     version: 8.51.0
@@ -145,7 +142,7 @@ packages:
       events: 3.3.0
       prettier: 2.8.8
       prettier-plugin-astro: 0.9.1
-      vscode-css-languageservice: 6.2.9
+      vscode-css-languageservice: 6.2.10
       vscode-html-languageservice: 5.1.0
       vscode-languageserver: 8.1.0
       vscode-languageserver-protocol: 3.17.5
@@ -184,7 +181,7 @@ packages:
       prismjs: 1.29.0
     dev: true
 
-  /@astrojs/react@2.2.1(@types/react-dom@18.2.11)(@types/react@18.2.25)(react-dom@18.2.0)(react@18.2.0):
+  /@astrojs/react@2.2.1(@types/react-dom@18.2.11)(@types/react@18.2.26)(react-dom@18.2.0)(react@18.2.0):
     resolution: {integrity: sha512-nq5Zr8iWdwjSp5fh1NReaCplwsnL4w5PXAY5XWu1jE/frxEfF/ycGHrrhwWW0uJHX9G+kUtmQLR0GBhlR4FmAw==}
     engines: {node: '>=16.12.0'}
     peerDependencies:
@@ -195,7 +192,7 @@ packages:
     dependencies:
       '@babel/core': 7.23.0
       '@babel/plugin-transform-react-jsx': 7.22.15(@babel/core@7.23.0)
-      '@types/react': 18.2.25
+      '@types/react': 18.2.26
       '@types/react-dom': 18.2.11
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
@@ -1039,7 +1036,7 @@ packages:
       react: '>=16'
     dependencies:
       '@types/mdx': 2.0.8
-      '@types/react': 18.2.25
+      '@types/react': 18.2.26
       react: 18.2.0
     dev: false
 
@@ -1214,7 +1211,7 @@ packages:
       ts-pattern: 5.0.5
     dev: true
 
-  /@pandacss/dev@0.15.5(@internationalized/date@3.5.0)(@types/node@20.8.3)(@types/react-dom@18.2.11)(@types/react@18.2.25)(typescript@5.2.2):
+  /@pandacss/dev@0.15.5(@internationalized/date@3.5.0)(@types/node@20.8.3)(@types/react-dom@18.2.11)(@types/react@18.2.26)(typescript@5.2.2):
     resolution: {integrity: sha512-j7zAOCfjuzL1vPX57zxzVAa+QnA50q3+sTOOYF7nRLtbN7Xa6QwoOWxygv0NDF52hzs1IVmr/JapmjOPgUW0DA==}
     hasBin: true
     dependencies:
@@ -1226,7 +1223,7 @@ packages:
       '@pandacss/postcss': 0.15.5(typescript@5.2.2)
       '@pandacss/preset-panda': 0.15.5
       '@pandacss/shared': 0.15.5
-      '@pandacss/studio': 0.15.5(@internationalized/date@3.5.0)(@types/node@20.8.3)(@types/react-dom@18.2.11)(@types/react@18.2.25)(typescript@5.2.2)
+      '@pandacss/studio': 0.15.5(@internationalized/date@3.5.0)(@types/node@20.8.3)(@types/react-dom@18.2.11)(@types/react@18.2.26)(typescript@5.2.2)
       '@pandacss/token-dictionary': 0.15.5
       '@pandacss/types': 0.15.5
       cac: 6.7.14
@@ -1377,11 +1374,11 @@ packages:
     resolution: {integrity: sha512-CsVNHOUVXxy4U/8ZBepWftGkhH7y0oBEo1YvH8ymiov+DY7k6iwYeWmnMSTC15q+bLccA6bYG2pzc6zM96ApPg==}
     dev: true
 
-  /@pandacss/studio@0.15.5(@internationalized/date@3.5.0)(@types/node@20.8.3)(@types/react-dom@18.2.11)(@types/react@18.2.25)(typescript@5.2.2):
+  /@pandacss/studio@0.15.5(@internationalized/date@3.5.0)(@types/node@20.8.3)(@types/react-dom@18.2.11)(@types/react@18.2.26)(typescript@5.2.2):
     resolution: {integrity: sha512-m/BlbCex8fq2X4x7g8aX6BSKjexbvB/cCtALHQ7wbcFyVcxglra4Ligbxn9mPEnAsDSGG1LY/aXIXP86gFEoAQ==}
     dependencies:
       '@ark-ui/react': 0.9.0(@internationalized/date@3.5.0)(react-dom@18.2.0)(react@18.2.0)
-      '@astrojs/react': 2.2.1(@types/react-dom@18.2.11)(@types/react@18.2.25)(react-dom@18.2.0)(react@18.2.0)
+      '@astrojs/react': 2.2.1(@types/react-dom@18.2.11)(@types/react@18.2.26)(react-dom@18.2.0)(react@18.2.0)
       '@pandacss/config': 0.15.5
       '@pandacss/logger': 0.15.5
       '@pandacss/node': 0.15.5(typescript@5.2.2)
@@ -1583,11 +1580,11 @@ packages:
   /@types/react-dom@18.2.11:
     resolution: {integrity: sha512-zq6Dy0EiCuF9pWFW6I6k6W2LdpUixLE4P6XjXU1QHLfak3GPACQfLwEuHzY5pOYa4hzj1d0GxX/P141aFjZsyg==}
     dependencies:
-      '@types/react': 18.2.25
+      '@types/react': 18.2.26
     dev: true
 
-  /@types/react@18.2.25:
-    resolution: {integrity: sha512-24xqse6+VByVLIr+xWaQ9muX1B4bXJKXBbjszbld/UEDslGLY53+ZucF44HCmLbMPejTzGG9XgR+3m2/Wqu1kw==}
+  /@types/react@18.2.26:
+    resolution: {integrity: sha512-ZaMtQo/fasHwMSRTED+u4Cjnkl0uuqEFJ2rKF0DQXji1v24DaNdSe9am4ldiDKFD/MpzbyS8UEOceh1/Oiw89g==}
     dependencies:
       '@types/prop-types': 15.7.8
       '@types/scheduler': 0.16.4
@@ -1926,8 +1923,8 @@ packages:
     resolution: {integrity: sha512-NuHqBY1PB/D8xU6s/thBgOAiAP7HOYDQ32+BFZILJ8ivkUkAHQnWfn6WhL79Owj1qmUnoN/YPhktdIoucipkAQ==}
     dev: false
 
-  /@yotsubacy/config@1.10.3(@babel/core@7.23.0)(eslint@8.51.0)(typescript@5.2.2):
-    resolution: {integrity: sha512-9dEPRrkJo5PmGlF2LO6wCpyRuKXko3Bl7V7PXKSuG32f2FralZpcbAypLWx+TaNS3OdLrqvAOOVJNqZlKcL1SA==}
+  /@yotsubacy/config@1.10.4(@babel/core@7.23.0)(eslint@8.51.0)(typescript@5.2.2):
+    resolution: {integrity: sha512-0qCPkt2BxI4hsl9lQiFDOjDdSuOCatDdU8jXmovtRvZs7Q50hC56VYd6LVihiBLUsjgYHB1b5H6fQCAuoeN7zA==}
     peerDependencies:
       eslint: ^8.16.0
     dependencies:
@@ -3761,14 +3758,6 @@ packages:
       '@types/estree-jsx': 1.0.1
       astring: 1.8.6
       source-map: 0.7.4
-    dev: false
-
-  /estree-util-value-to-estree@3.0.1:
-    resolution: {integrity: sha512-b2tdzTurEIbwRh+mKrEcaWfu1wgb8J1hVsgREg7FFiecWwK/PhO8X0kyc+0bIcKNtD4sqxIdNoRy6/p/TvECEA==}
-    engines: {node: '>=16.0.0'}
-    dependencies:
-      '@types/estree': 1.0.2
-      is-plain-obj: 4.1.0
     dev: false
 
   /estree-util-visit@1.2.1:
@@ -6534,18 +6523,6 @@ packages:
       - supports-color
     dev: false
 
-  /remark-mdx-frontmatter@3.0.0:
-    resolution: {integrity: sha512-Tnkz8n/fxZGKMBaFJa5jKumJPpuTr9eZF+u+4UcnlUNmUQP3h8ZwgaTzIvkVb6QjG6QE0itsP5JjWnkEBz8IJw==}
-    engines: {node: '>=16.0.0'}
-    dependencies:
-      '@types/mdast': 3.0.13
-      estree-util-is-identifier-name: 2.1.0
-      estree-util-value-to-estree: 3.0.1
-      toml: 3.0.0
-      unified: 10.1.2
-      yaml: 2.3.2
-    dev: false
-
   /remark-mdx@2.3.0:
     resolution: {integrity: sha512-g53hMkpM0I98MU266IzDFMrTD980gNF3BJnkyFcmN+dD873mQeD5rdMO3Y2X+x8umQfbSE0PcoEDl7ledSA+2g==}
     dependencies:
@@ -7111,10 +7088,6 @@ packages:
       is-number: 7.0.0
     dev: true
 
-  /toml@3.0.0:
-    resolution: {integrity: sha512-y/mWCZinnvxjTKYhJ+pYxwD0mRLVvOtdS2Awbgxln6iEnt4rk0yBxeSBHkGJcPucRiG0e55mwWp+g/05rsrd6w==}
-    dev: false
-
   /trim-lines@3.0.1:
     resolution: {integrity: sha512-kRj8B+YHZCc9kQYdWfJB2/oUl9rA99qbowYYBtr4ui4mZyAQ2JpvVBd/6U2YloATfqBhBTSMhTpgBHtU0Mf3Rg==}
 
@@ -7512,12 +7485,12 @@ packages:
       vite: 4.4.9(@types/node@20.8.3)
     dev: true
 
-  /vscode-css-languageservice@6.2.9:
-    resolution: {integrity: sha512-9MsOvAi+VycKomQ7KEq4o/hLtjHHrtRLLl8lM9nMcH8cxfNI7/6jVXmsV/7pdbDWu9L3DZhsspN1eMXZwiOymw==}
+  /vscode-css-languageservice@6.2.10:
+    resolution: {integrity: sha512-sYUZPku4mQ06AWGCbMyjv2tdR6juBW6hTbVPFwbJvNVzdtEfBioQOgkdXg7yMJNWnXkvWSU1FL2kb4Vxu5Cdyw==}
     dependencies:
       '@vscode/l10n': 0.0.16
       vscode-languageserver-textdocument: 1.0.11
-      vscode-languageserver-types: 3.17.3
+      vscode-languageserver-types: 3.17.5
       vscode-uri: 3.0.8
     dev: true
 
@@ -7755,11 +7728,6 @@ packages:
   /yallist@4.0.0:
     resolution: {integrity: sha512-3wdGidZyq5PB084XLES5TpOSRA3wjXAlIWMhum2kRcv/41Sn2emQ0dycQW4uZXLejwKvg6EsvbdlVL+FYEct7A==}
     dev: true
-
-  /yaml@2.3.2:
-    resolution: {integrity: sha512-N/lyzTPaJasoDmfV7YTrYCI0G/3ivm/9wdG0aHuheKowWQwGTsK0Eoiw6utmzAnI6pkJa0DUVygvp3spqqEKXg==}
-    engines: {node: '>= 14'}
-    dev: false
 
   /yargs-parser@21.1.1:
     resolution: {integrity: sha512-tVpsJW7DdjecAiFpbIB1e3qxIQsE6NoPc5/eTdrbbIC4h0LVsWhnoa3g+m2HclBIujHzsxZ4VJVA+GUuc2/LBw==}
