@@ -5,8 +5,8 @@ import type {ReactNode} from 'react';
 import type {Metadata} from 'next';
 
 export const metadata = {
-    title: 'Blog',
-    description: 'Blog',
+    title: 'Ycycwx Blog',
+    description: 'Ycycwx Blog',
 } satisfies Metadata;
 
 const RootLayout = ({children}: { children: ReactNode }) => {
