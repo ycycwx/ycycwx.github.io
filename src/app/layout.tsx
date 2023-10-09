@@ -19,9 +19,7 @@ const RootLayout = ({children}: { children: ReactNode }) => {
                     p: '2.625rem 1.3125rem',
                 })}
             >
-                <Provider>
-                    {children}
-                </Provider>
+                <Provider>{children}</Provider>
             </body>
         </html>
     );
