@@ -1,10 +1,8 @@
 import './globals.css';
-import {Inter} from 'next/font/google';
+import {Provider} from '@/theme/provider';
+import {css} from '../../styled-system/css';
 import type {ReactNode} from 'react';
 import type {Metadata} from 'next';
-
-// eslint-disable-next-line new-cap
-const inter = Inter({subsets: ['latin']});
 
 export const metadata = {
     title: 'Blog',
@@ -13,8 +11,18 @@ export const metadata = {
 
 const RootLayout = ({children}: { children: ReactNode }) => {
     return (
-        <html lang="en">
-            <body className={inter.className}>{children}</body>
+        <html lang="en" suppressHydrationWarning>
+            <body
+                className={css({
+                    maxW: '2xl',
+                    mx: 'auto',
+                    p: '2.625rem 1.3125rem',
+                })}
+            >
+                <Provider>
+                    {children}
+                </Provider>
+            </body>
         </html>
     );
 };
