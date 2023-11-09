@@ -22,7 +22,7 @@
         "remark-gfm": "^4.0.0"
     },
     "devDependencies": {
-        "@pandacss/dev": "^0.17.3",
+        "@pandacss/dev": "^0.18.0",
         "@types/mdx": "^2.0.9",
         "@types/node": "^20.8.7",
         "@types/react": "^18.2.33",
