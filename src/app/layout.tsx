@@ -1,7 +1,7 @@
 import './globals.css';
 import {Provider} from '@/theme/provider';
 import {css} from '../../styled-system/css';
-import type {ReactNode} from 'react';
+import type {PropsWithChildren} from 'react';
 import type {Metadata} from 'next';
 
 export const metadata = {
@@ -9,7 +9,7 @@ export const metadata = {
     description: 'Ycycwx Blog',
 } satisfies Metadata;
 
-const RootLayout = ({children}: { children: ReactNode }) => {
+const RootLayout = ({children}: PropsWithChildren) => {
     return (
         <html lang="en" suppressHydrationWarning>
             <body

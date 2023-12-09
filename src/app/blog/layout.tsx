@@ -2,14 +2,14 @@ import Link from 'next/link';
 import {getMdxFiles} from '@/mdx/util';
 import {Divider} from '@/mdx/divider';
 import {Header} from '@/components/header';
-import type {ReactNode} from 'react';
+import type {PropsWithChildren} from 'react';
 
 /**
  * slice length
  */
 const TOP = 3;
 
-const MdxLayout = async ({children}: { children: ReactNode }) => {
+const MdxLayout = async ({children}: PropsWithChildren) => {
     const mdxFiles = await getMdxFiles();
     return (
         <>
