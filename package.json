@@ -13,8 +13,8 @@
         "lint": "next lint"
     },
     "dependencies": {
-        "@mdx-js/loader": "^3.0.0",
-        "@mdx-js/react": "^3.0.0",
+        "@mdx-js/loader": "^3.0.1",
+        "@mdx-js/react": "^3.0.1",
         "@next/mdx": "^14.1.0",
         "gray-matter": "^4.0.3",
         "next": "14.1.0",
@@ -25,7 +25,7 @@
         "remark-gfm": "^4.0.0"
     },
     "devDependencies": {
-        "@pandacss/dev": "^0.30.2",
+        "@pandacss/dev": "^0.31.0",
         "@types/mdx": "^2.0.11",
         "@types/node": "^20.11.17",
         "@types/react": "^18.2.55",
