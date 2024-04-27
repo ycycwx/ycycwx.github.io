@@ -56,7 +56,7 @@ importers:
         version: 18.3.0
       '@yotsubacy/config':
         specifier: ^1.10.13
-        version: 1.10.17(@babel/core@7.24.4)(eslint@8.57.0)(typescript@5.4.5)
+        version: 1.10.18(@babel/core@7.24.4)(eslint@8.57.0)(typescript@5.4.5)
       eslint:
         specifier: ^8.56.0
         version: 8.57.0
@@ -763,8 +763,8 @@ packages:
   '@xtuc/long@4.2.2':
     resolution: {integrity: sha512-NuHqBY1PB/D8xU6s/thBgOAiAP7HOYDQ32+BFZILJ8ivkUkAHQnWfn6WhL79Owj1qmUnoN/YPhktdIoucipkAQ==}
 
-  '@yotsubacy/config@1.10.17':
-    resolution: {integrity: sha512-4Y2S4w7j606HMIQ5AmI+RAEfgQqX3RmCSLWhtDTtBUBuIJ3FfL2mCFT+rAMDjHTm6RDUlwbDrlwGVUSH/TmFQA==}
+  '@yotsubacy/config@1.10.18':
+    resolution: {integrity: sha512-+NYx+JglKrqN89Ly7WKs3vvqO4bX4O8uCCHuhYMa+CR5d00Z3UhjRhywox4URkTs/ty04BNWMPspHzyBnx73uA==}
     peerDependencies:
       eslint: ^8.16.0
 
@@ -997,7 +997,7 @@ packages:
     resolution: {integrity: sha512-GpVkmM8vF2vQUkj2LvZmD35JxeJOLCwJ9cUkugyk2nuhbv3+mJvpLYYt+0+USMxE+oj+ey/lJEnhZw75x/OMcQ==}
 
   concat-map@0.0.1:
-    resolution: {integrity: sha1-2Klr13/Wjfd5OnMDajug1UBdR3s=}
+    resolution: {integrity: sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==}
 
   convert-source-map@2.0.0:
     resolution: {integrity: sha512-Kvp459HrV2FEJ1CAsi1Ku+MY3kasH19TFykTz2xWmMeq6bk2NU3XXvfJ+Q61m0xktWwt+1HSYf3JZsTms3aRJg==}
@@ -3730,7 +3730,7 @@ snapshots:
 
   '@xtuc/long@4.2.2': {}
 
-  '@yotsubacy/config@1.10.17(@babel/core@7.24.4)(eslint@8.57.0)(typescript@5.4.5)':
+  '@yotsubacy/config@1.10.18(@babel/core@7.24.4)(eslint@8.57.0)(typescript@5.4.5)':
     dependencies:
       '@babel/eslint-parser': 7.24.1(@babel/core@7.24.4)(eslint@8.57.0)
       '@rushstack/eslint-patch': 1.10.2
