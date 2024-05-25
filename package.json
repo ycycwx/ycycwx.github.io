@@ -25,12 +25,12 @@
         "remark-gfm": "^4.0.0"
     },
     "devDependencies": {
-        "@pandacss/dev": "^0.39.0",
+        "@pandacss/dev": "^0.39.2",
         "@types/mdx": "^2.0.11",
         "@types/node": "^20.12.9",
-        "@types/react": "^18.3.1",
+        "@types/react": "^18.3.3",
         "@types/react-dom": "^18.3.0",
-        "@yotsubacy/config": "^1.10.21",
+        "@yotsubacy/config": "^1.10.22",
         "eslint": "^8.56.0",
         "eslint-config-next": "14.2.3",
         "typescript": "^5.4.2"
