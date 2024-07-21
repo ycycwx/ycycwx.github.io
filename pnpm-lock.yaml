@@ -55,8 +55,8 @@ importers:
         specifier: ^18.3.0
         version: 18.3.0
       '@yotsubacy/config':
-        specifier: ^1.11.0
-        version: 1.11.7(@babel/core@7.24.9)(eslint@8.57.0)(typescript@5.5.3)
+        specifier: ^1.11.8
+        version: 1.11.8(@babel/core@7.24.9)(eslint@8.57.0)(typescript@5.5.3)
       eslint:
         specifier: ^8.56.0
         version: 8.57.0
@@ -758,8 +758,8 @@ packages:
   '@xtuc/long@4.2.2':
     resolution: {integrity: sha512-NuHqBY1PB/D8xU6s/thBgOAiAP7HOYDQ32+BFZILJ8ivkUkAHQnWfn6WhL79Owj1qmUnoN/YPhktdIoucipkAQ==}
 
-  '@yotsubacy/config@1.11.7':
-    resolution: {integrity: sha512-hKMWcEzP797J6UT7VvpVJUwRF6GuDSifdZOdgnwFtWhIzK7/wpTrWfQCDLiv/T3UVc62CawLDwBYR8YuUB2suA==}
+  '@yotsubacy/config@1.11.8':
+    resolution: {integrity: sha512-rQzEWe700GskgE4shVodh7IY03bPU8+JU37+0ASLWrKR1flPUjVKhJH1bqa0jVNf3rwsKGT+a9Hrr8BYymCaTg==}
     peerDependencies:
       eslint: ^8.16.0
 
@@ -3744,7 +3744,7 @@ snapshots:
 
   '@xtuc/long@4.2.2': {}
 
-  '@yotsubacy/config@1.11.7(@babel/core@7.24.9)(eslint@8.57.0)(typescript@5.5.3)':
+  '@yotsubacy/config@1.11.8(@babel/core@7.24.9)(eslint@8.57.0)(typescript@5.5.3)':
     dependencies:
       '@babel/eslint-parser': 7.24.8(@babel/core@7.24.9)(eslint@8.57.0)
       '@rushstack/eslint-patch': 1.10.3
