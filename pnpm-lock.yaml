@@ -47,7 +47,7 @@ importers:
         version: 2.0.13
       '@types/node':
         specifier: ^20.14.12
-        version: 20.16.3
+        version: 20.16.4
       '@types/react':
         specifier: ^18.3.4
         version: 18.3.5
@@ -564,8 +564,8 @@ packages:
   '@types/node@17.0.45':
     resolution: {integrity: sha512-w+tIMs3rq2afQdsPJlODhoUEKzFP1ayaoyl1CcnwtIlsVe7K7bA1NGm4s3PraqTLlXnbIN84zuBlxBWo1u9BLw==}
 
-  '@types/node@20.16.3':
-    resolution: {integrity: sha512-/wdGiWRkMOm53gAsSyFMXFZHbVg7C6CbkrzHNpaHoYfsUWPg7m6ZRKtvQjgvQ9i8WT540a3ydRlRQbxjY30XxQ==}
+  '@types/node@20.16.4':
+    resolution: {integrity: sha512-ioyQ1zK9aGEomJ45zz8S8IdzElyxhvP1RVWnPrXDf6wFaUb+kk1tEcVVJkF7RPGM0VWI7cp5U57oCPIn5iN1qg==}
 
   '@types/prop-types@15.7.12':
     resolution: {integrity: sha512-5zvhXYtRNRluoE/jAp4GVsSduVUzNWKkOZrCDBWYtE7biZywwdC2AcEzg+cSMLFRfVgeAFqpfNabiPjxFddV1Q==}
@@ -2237,6 +2237,9 @@ packages:
   picocolors@1.0.1:
     resolution: {integrity: sha512-anP1Z8qwhkbmu7MFP5iTt+wQKXgwzf7zTyGlcdzabySa9vd0Xt392U0rVmz9poOaBj0uHJKyyo9/upk0HrEQew==}
 
+  picocolors@1.1.0:
+    resolution: {integrity: sha512-TQ92mBOW0l3LeMeyLV6mzy/kWr8lkd/hp3mTg7wYK7zJhuBStmGMBG0BdeDZS/dZx1IukaX6Bk11zcln25o1Aw==}
+
   picomatch@2.3.1:
     resolution: {integrity: sha512-JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA==}
     engines: {node: '>=8.6'}
@@ -2823,7 +2826,7 @@ snapshots:
   '@babel/code-frame@7.24.7':
     dependencies:
       '@babel/highlight': 7.24.7
-      picocolors: 1.0.1
+      picocolors: 1.1.0
 
   '@babel/compat-data@7.25.4': {}
 
@@ -2910,7 +2913,7 @@ snapshots:
       '@babel/helper-validator-identifier': 7.24.7
       chalk: 2.4.2
       js-tokens: 4.0.0
-      picocolors: 1.0.1
+      picocolors: 1.1.0
 
   '@babel/parser@7.25.6':
     dependencies:
@@ -3407,7 +3410,7 @@ snapshots:
 
   '@types/node@17.0.45': {}
 
-  '@types/node@20.16.3':
+  '@types/node@20.16.4':
     dependencies:
       undici-types: 6.19.8
 
@@ -4927,7 +4930,7 @@ snapshots:
 
   jest-worker@27.5.1:
     dependencies:
-      '@types/node': 20.16.3
+      '@types/node': 20.16.4
       merge-stream: 2.0.0
       supports-color: 8.1.1
 
@@ -5719,6 +5722,8 @@ snapshots:
       is-reference: 3.0.2
 
   picocolors@1.0.1: {}
+
+  picocolors@1.1.0: {}
 
   picomatch@2.3.1: {}
 
