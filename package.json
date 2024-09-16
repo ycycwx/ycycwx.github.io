@@ -28,10 +28,10 @@
         "@pandacss/dev": "^0.46.0",
         "@types/mdx": "^2.0.11",
         "@types/node": "^20.14.12",
-        "@types/react": "^18.3.4",
+        "@types/react": "^18.3.6",
         "@types/react-dom": "^18.3.0",
         "@yotsubacy/config": "^1.11.9",
-        "eslint": "^8.56.0",
+        "eslint": "^8.57.1",
         "eslint-config-next": "14.2.11",
         "typescript": "^5.5.4"
     }
