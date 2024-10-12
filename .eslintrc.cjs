@@ -2,12 +2,10 @@ const {resolve} = require('node:path');
 
 const project = resolve(__dirname, 'tsconfig.json');
 
-/**
- * @type {import('eslint').Linter.Config}
- */
 module.exports = {
     root: true,
-    extends: ['next/core-web-vitals'],
+    // NOTE: Turn off next/core-web-vitals temporarily until it supports eslint flat config officially
+    // extends: ['next/core-web-vitals'],
     overrides: [
         {
             files: ['*.tsx', '*.ts'],

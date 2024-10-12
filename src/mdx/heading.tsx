@@ -3,7 +3,7 @@ import type {ComponentProps, FC} from 'react';
 
 type HeadingTag = `h${1 | 2 | 3 | 4 | 5 | 6}`;
 
-type Props = ComponentProps<'h2'> & { tag: HeadingTag };
+type Props = ComponentProps<'h2'> & {tag: HeadingTag};
 
 const styles = cva({
     base: {
