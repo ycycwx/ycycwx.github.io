@@ -4,8 +4,9 @@ const project = resolve(__dirname, 'tsconfig.json');
 
 module.exports = {
     root: true,
-    // NOTE: Turn off next/core-web-vitals temporarily until it supports eslint flat config officially
-    // extends: ['next/core-web-vitals'],
+    extends: [
+        'plugin:@next/next/recommended',
+    ],
     overrides: [
         {
             files: ['*.tsx', '*.ts'],
