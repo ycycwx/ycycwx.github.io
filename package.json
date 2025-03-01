@@ -32,7 +32,7 @@
         "@types/react": "19.0.10",
         "@types/react-dom": "19.0.4",
         "@yotsubacy/config": "^1.15.13",
-        "eslint": "^8.57.1",
+        "eslint": "^9.0.0",
         "eslint-config-next": "15.2.0",
         "typescript": "^5.6.3"
     }
