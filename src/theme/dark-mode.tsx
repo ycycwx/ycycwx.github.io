@@ -8,7 +8,9 @@ export const DarkMode = () => {
         cb => {
             const mediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
             mediaQuery.addEventListener('change', cb);
-            return () => mediaQuery.removeEventListener('change', cb);
+            return () => {
+                mediaQuery.removeEventListener('change', cb);
+            };
         },
         []
     );
