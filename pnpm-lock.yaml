@@ -61,8 +61,8 @@ importers:
         specifier: 19.0.4
         version: 19.0.4(@types/react@19.0.12)
       '@yotsubacy/config':
-        specifier: 2.0.9
-        version: 2.0.9(@typescript-eslint/parser@8.28.0(eslint@9.23.0)(typescript@5.8.2))(eslint@9.23.0)(typescript@5.8.2)
+        specifier: 2.0.10
+        version: 2.0.10(@typescript-eslint/parser@8.28.0(eslint@9.23.0)(typescript@5.8.2))(eslint@9.23.0)(typescript@5.8.2)
       eslint:
         specifier: 9.23.0
         version: 9.23.0
@@ -802,8 +802,8 @@ packages:
   '@vue/shared@3.4.19':
     resolution: {integrity: sha512-/KliRRHMF6LoiThEy+4c1Z4KB/gbPrGjWwJR+crg2otgrf/egKzRaCPvJ51S5oetgsgXLfc4Rm5ZgrKHZrtMSw==}
 
-  '@yotsubacy/config@2.0.9':
-    resolution: {integrity: sha512-K7+5ZPgMaN7986v9SEAK9ex6h6j391dXk/1c00fiU41+du0rKFsDt+6Emb2ejFoAt36j/3Q5KdD94873eeB7wA==}
+  '@yotsubacy/config@2.0.10':
+    resolution: {integrity: sha512-lnQ5PpWz69BfQo2KKpv1QSN655tuag+mB+rtSPv/h7Q+ChVWaM3ohVXjiQFmfJKlT6tbF12l6jgDsVHOmS8rYg==}
     peerDependencies:
       eslint: ^9.22.0
 
@@ -3466,7 +3466,7 @@ snapshots:
 
   '@vue/shared@3.4.19': {}
 
-  '@yotsubacy/config@2.0.9(@typescript-eslint/parser@8.28.0(eslint@9.23.0)(typescript@5.8.2))(eslint@9.23.0)(typescript@5.8.2)':
+  '@yotsubacy/config@2.0.10(@typescript-eslint/parser@8.28.0(eslint@9.23.0)(typescript@5.8.2))(eslint@9.23.0)(typescript@5.8.2)':
     dependencies:
       '@eslint-community/eslint-plugin-eslint-comments': 4.4.1(eslint@9.23.0)
       '@eslint/js': 9.23.0
