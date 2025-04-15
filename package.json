@@ -32,7 +32,7 @@
         "@pandacss/dev": "0.53.3",
         "@types/mdx": "2.0.13",
         "@types/node": "22.14.1",
-        "@types/react": "19.1.1",
+        "@types/react": "19.1.2",
         "@types/react-dom": "19.1.2",
         "@yotsubacy/config": "2.0.12",
         "eslint": "9.24.0",
