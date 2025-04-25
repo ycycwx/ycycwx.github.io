@@ -34,7 +34,7 @@
         "@types/node": "22.14.1",
         "@types/react": "19.1.2",
         "@types/react-dom": "19.1.2",
-        "@yotsubacy/config": "2.0.12",
+        "@yotsubacy/config": "2.0.13",
         "eslint": "9.25.0",
         "eslint-config-next": "15.3.1",
         "typescript": "5.8.3"
