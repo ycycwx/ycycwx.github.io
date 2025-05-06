@@ -61,8 +61,8 @@ importers:
         specifier: 19.1.3
         version: 19.1.3(@types/react@19.1.3)
       '@yotsubacy/config':
-        specifier: 2.0.13
-        version: 2.0.13(@typescript-eslint/parser@8.31.1(eslint@9.26.0)(typescript@5.8.3))(eslint@9.26.0)(typescript@5.8.3)
+        specifier: 2.0.14
+        version: 2.0.14(@typescript-eslint/parser@8.31.1(eslint@9.26.0)(typescript@5.8.3))(eslint@9.26.0)(typescript@5.8.3)
       eslint:
         specifier: 9.26.0
         version: 9.26.0
@@ -821,8 +821,8 @@ packages:
   '@vue/shared@3.4.19':
     resolution: {integrity: sha512-/KliRRHMF6LoiThEy+4c1Z4KB/gbPrGjWwJR+crg2otgrf/egKzRaCPvJ51S5oetgsgXLfc4Rm5ZgrKHZrtMSw==}
 
-  '@yotsubacy/config@2.0.13':
-    resolution: {integrity: sha512-83fVeC4q1naJinFAK2cuQV5xqjZZi+o8LBlqCMJ3axaVKqwRbHfoIgc5ySfebXunLeqADsLL2IEtmCp0pgE/IQ==}
+  '@yotsubacy/config@2.0.14':
+    resolution: {integrity: sha512-1oCsFct7v4DDMcfZd6rKJ6RnR2wDzzVsnNw/ZuFeIl98j5xYK9BvRO+feMkuvr405n6nySuatgUGGDK81haamw==}
     peerDependencies:
       eslint: ^9.22.0
 
@@ -3508,7 +3508,7 @@ snapshots:
     dependencies:
       minimatch: 9.0.5
       path-browserify: 1.0.1
-      tinyglobby: 0.2.12
+      tinyglobby: 0.2.13
 
   '@tybys/wasm-util@0.9.0':
     dependencies:
@@ -3723,7 +3723,7 @@ snapshots:
 
   '@vue/shared@3.4.19': {}
 
-  '@yotsubacy/config@2.0.13(@typescript-eslint/parser@8.31.1(eslint@9.26.0)(typescript@5.8.3))(eslint@9.26.0)(typescript@5.8.3)':
+  '@yotsubacy/config@2.0.14(@typescript-eslint/parser@8.31.1(eslint@9.26.0)(typescript@5.8.3))(eslint@9.26.0)(typescript@5.8.3)':
     dependencies:
       '@eslint-community/eslint-plugin-eslint-comments': 4.5.0(eslint@9.26.0)
       '@eslint/js': 9.26.0
