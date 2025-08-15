@@ -37,7 +37,7 @@
         "@yotsubacy/config": "2.0.22",
         "eslint": "9.33.0",
         "eslint-config-next": "15.4.6",
-        "typescript": "5.8.3"
+        "typescript": "5.9.2"
     },
     "pnpm": {
         "onlyBuiltDependencies": [
