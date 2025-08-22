@@ -1,6 +1,4 @@
 import createMDX from '@next/mdx';
-import remarkFrontmatter from 'remark-frontmatter';
-import remarkGfm from 'remark-gfm';
 import type {NextConfig} from 'next';
 
 const nextConfig: NextConfig = {
@@ -11,7 +9,7 @@ const nextConfig: NextConfig = {
 
 export default createMDX({
     options: {
-        remarkPlugins: [remarkGfm, remarkFrontmatter],
+        remarkPlugins: ['remark-gfm', 'remark-frontmatter'],
         rehypePlugins: [],
     },
 })(nextConfig);
