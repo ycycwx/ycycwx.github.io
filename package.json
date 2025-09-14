@@ -17,9 +17,9 @@
     "dependencies": {
         "@mdx-js/loader": "3.1.1",
         "@mdx-js/react": "3.1.1",
-        "@next/mdx": "15.5.2",
+        "@next/mdx": "15.5.3",
         "gray-matter": "4.0.3",
-        "next": "15.5.2",
+        "next": "15.5.3",
         "next-themes": "0.4.6",
         "react": "19.1.1",
         "react-dom": "19.1.1",
@@ -29,14 +29,14 @@
     "devDependencies": {
         "@eslint/eslintrc": "3.3.1",
         "@eslint/js": "9.35.0",
-        "@pandacss/dev": "1.2.0",
+        "@pandacss/dev": "1.3.0",
         "@types/mdx": "2.0.13",
-        "@types/node": "24.3.1",
-        "@types/react": "19.1.12",
+        "@types/node": "24.3.3",
+        "@types/react": "19.1.13",
         "@types/react-dom": "19.1.9",
         "@yotsubacy/config": "2.2.0",
         "eslint": "9.35.0",
-        "eslint-config-next": "15.5.2",
+        "eslint-config-next": "15.5.3",
         "typescript": "5.9.2"
     },
     "pnpm": {
