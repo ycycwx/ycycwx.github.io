@@ -5,6 +5,7 @@ const nextConfig: NextConfig = {
     output: 'export',
     pageExtensions: ['js', 'jsx', 'ts', 'tsx', 'mdx'],
     reactStrictMode: true,
+    reactCompiler: true,
 };
 
 export default createMDX({
