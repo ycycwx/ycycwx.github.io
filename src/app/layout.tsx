@@ -17,6 +17,13 @@ const RootLayout = ({children}: PropsWithChildren) => {
                     maxW: '2xl',
                     mx: 'auto',
                     p: '2.625rem 1.3125rem',
+                    minH: '100vh',
+                    bg: 'white',
+                    color: 'gray.900',
+                    _dark: {
+                        bg: 'gray.950',
+                        color: 'gray.100',
+                    },
                 })}
             >
                 <Provider>{children}</Provider>
