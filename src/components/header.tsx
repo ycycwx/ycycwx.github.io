@@ -6,6 +6,10 @@ export const Header = () => {
         <div
             className={css({
                 mb: '2.625rem',
+                display: 'flex',
+                justifyContent: 'space-between',
+                alignItems: 'baseline',
+                gap: '4',
             })}
         >
             <Link
@@ -18,6 +22,16 @@ export const Header = () => {
             >
                 Ycycwx
             </Link>
+            <nav
+                className={css({
+                    display: 'flex',
+                    gap: '4',
+                    fontSize: 'sm',
+                })}
+            >
+                <Link href="/">Blog</Link>
+                <Link href="/tier-list">Tier List</Link>
+            </nav>
         </div>
     );
 };
