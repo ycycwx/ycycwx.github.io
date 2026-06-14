@@ -1,1 +1,18 @@
 @layer reset, base, tokens, recipes, utilities;
+
+@layer base {
+  details {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  details:first-child {
+    margin-top: 0;
+  }
+
+  summary {
+    cursor: pointer;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+}
