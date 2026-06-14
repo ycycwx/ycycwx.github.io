@@ -1,24 +1,14 @@
 import {css} from '../../styled-system/css';
-import type {SystemStyleObject} from '../../styled-system/types';
 
 export interface TierListGroup {
     tier: string;
     items: string[];
-    badgeStyle?: SystemStyleObject;
 }
 
 interface TierListProps {
     groups: TierListGroup[];
     emptyText?: string;
 }
-
-const defaultBadgeStyles: SystemStyleObject[] = [
-    {bg: 'red.500', color: 'white'},
-    {bg: 'orange.500', color: 'white'},
-    {bg: 'yellow.400', color: 'gray.900'},
-    {bg: 'green.500', color: 'white'},
-    {bg: 'blue.500', color: 'white'},
-];
 
 export const TierList = ({groups, emptyText = 'No entries yet.'}: TierListProps) => (
     <div
@@ -28,8 +18,7 @@ export const TierList = ({groups, emptyText = 'No entries yet.'}: TierListProps)
             gap: '6',
         })}
     >
-        {groups.map((group, groupIndex) => {
-            const badgeStyle = group.badgeStyle ?? defaultBadgeStyles[groupIndex % defaultBadgeStyles.length];
+        {groups.map(group => {
             const itemCountByName = new Map<string, number>();
             return (
                 <section
@@ -49,16 +38,10 @@ export const TierList = ({groups, emptyText = 'No entries yet.'}: TierListProps)
                 >
                     <div
                         className={css({
-                            display: 'inline-flex',
-                            alignItems: 'center',
-                            justifyContent: 'center',
-                            w: '12',
-                            h: '8',
-                            rounded: 'md',
                             fontSize: 'sm',
                             fontWeight: 'bold',
-                            letterSpacing: 'tight',
-                            ...badgeStyle,
+                            color: 'gray.500',
+                            _dark: {color: 'gray.400'},
                         })}
                     >
                         {group.tier}

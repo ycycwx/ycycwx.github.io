@@ -29,6 +29,7 @@ export const WRITER_TIERS: Record<WriterTier, string[]> = {
         '岡嶋二人',
         '麻耶雄嵩',
         '早坂吝',
+        '南海遊',
     ],
     B: [
         '東野圭吾',
