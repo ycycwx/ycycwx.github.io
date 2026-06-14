@@ -1,4 +1,3 @@
-import nextVitals from 'eslint-config-next/core-web-vitals';
 import nextTs from 'eslint-config-next/typescript';
 import config from '@yotsubacy/config/eslint';
 import {globalIgnores} from 'eslint/config';
@@ -22,7 +21,6 @@ export default config(
             },
         },
     },
-    ...nextVitals,
     ...nextTs,
     globalIgnores([
         'out',
