@@ -28,7 +28,7 @@
     },
     "devDependencies": {
         "@eslint/eslintrc": "3.3.6",
-        "@eslint/js": "9.39.4",
+        "@eslint/js": "9.39.5",
         "@pandacss/dev": "1.11.4",
         "@types/mdx": "2.0.14",
         "@types/node": "24.13.3",
@@ -36,7 +36,7 @@
         "@types/react-dom": "19.2.3",
         "@yotsubacy/config": "2.4.2",
         "babel-plugin-react-compiler": "1.0.0",
-        "eslint": "9.39.4",
+        "eslint": "9.39.5",
         "eslint-config-next": "16.2.10",
         "typescript": "6.0.3"
     }
