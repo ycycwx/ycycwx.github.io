@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import {getMdxFiles} from '@/mdx/util';
 import {Divider} from '@/mdx/divider';
+import {Article} from '@/mdx/article';
 import {Header} from '@/components/header';
 import type {PropsWithChildren} from 'react';
 
@@ -14,7 +15,7 @@ const MdxLayout = async ({children}: PropsWithChildren) => {
     return (
         <>
             <Header />
-            {children}
+            <Article>{children}</Article>
             <Divider />
             <ul>
                 {
