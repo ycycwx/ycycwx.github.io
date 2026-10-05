@@ -26,6 +26,6 @@ export default config(
         'out',
         '.*',
         '**/*.d.ts',
-        'styled-system/**/*.mjs',
+        'styled-system/**',
     ])
 );
