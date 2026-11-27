@@ -11,15 +11,7 @@ export default defineConfig({
     // Whether to use css reset
     preflight: true,
 
-    // Where to look for your css declarations
-    include: [
-        './mdx-components.tsx',
-        './src/**/*.{js,jsx,ts,tsx}',
-        './pages/**/*.{js,jsx,ts,tsx}',
-    ],
-
-    // Files to exclude
-    exclude: [],
+    include: ['./src/**/*.{js,jsx,ts,tsx}'],
 
     conditions: {
         light: '[data-color-mode=light] &',
@@ -49,7 +41,4 @@ export default defineConfig({
             },
         },
     },
-
-    // The output directory for your css system
-    outdir: 'styled-system',
 });
